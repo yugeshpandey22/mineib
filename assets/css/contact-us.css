@@ -1,0 +1,118 @@
+/* ============================================================
+   contact-us.css — Contact Us / Chat Over Chai Page Styles
+   ============================================================ */
+
+/* Page banner */
+.inner-page-banner {
+    background: linear-gradient(135deg, #353275 0%, #6c63ff 100%);
+}
+
+/* Contact section */
+.contact-section {
+    padding: 55px 0 60px;
+    background: #f8f9ff;
+}
+
+/* Contact Info Cards */
+.contact-info-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 22px 18px;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: flex-start;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    transition: transform 0.2s;
+}
+.contact-info-card:hover {
+    transform: translateY(-3px);
+}
+.contact-icon-circle {
+    background: linear-gradient(135deg, #353275, #6c63ff);
+    color: #fff;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-right: 16px;
+    font-size: 1.1rem;
+}
+.contact-info-card .info-text h5 {
+    color: #353275;
+    font-weight: 700;
+    margin: 0 0 5px;
+    font-size: 0.95rem;
+}
+.contact-info-card .info-text p,
+.contact-info-card .info-text a {
+    color: #555;
+    margin: 0;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+.contact-info-card .info-text a:hover {
+    color: #6c63ff;
+}
+
+/* Contact Form Box */
+.contact-form-box {
+    background: #fff;
+    border-radius: 12px;
+    padding: 38px 35px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+}
+.contact-form-box h3 {
+    color: #353275;
+    font-weight: 700;
+    margin-bottom: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.contact-form-box label {
+    color: #555;
+    font-weight: 600;
+    font-size: 0.88rem;
+    margin-bottom: 5px;
+    display: block;
+}
+.contact-form-box .form-control {
+    border: 1.5px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 11px 14px;
+    font-size: 0.92rem;
+    color: #333;
+    transition: border-color 0.2s;
+    width: 100%;
+    margin-bottom: 18px;
+}
+.contact-form-box .form-control:focus {
+    border-color: #6c63ff;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(108,99,255,0.1);
+}
+.contact-form-box textarea.form-control {
+    resize: vertical;
+    min-height: 130px;
+}
+.btn-contact-submit {
+    background: linear-gradient(135deg, #353275, #6c63ff);
+    color: #fff;
+    border: none;
+    padding: 13px 40px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: opacity 0.2s, transform 0.2s;
+}
+.btn-contact-submit:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .contact-form-box { padding: 25px 18px; }
+}

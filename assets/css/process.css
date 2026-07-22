@@ -1,0 +1,22 @@
+.screen {
+    height: 265px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.screen img {
+    width: 100%;
+    display: block;
+    transform: translateY(0);
+    transition: transform 8s linear;
+}
+
+.screen:hover img {
+    transform: translateY(calc(-100% + 265px));
+}
+
+.client-image {
+    box-shadow: 0 2px 10px rgba(0,0,0,.1);
+}

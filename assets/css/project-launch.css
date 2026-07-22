@@ -1,0 +1,72 @@
+
+
+section.project-launch h5 {
+    font-size:40px;
+    color:#fff
+}
+
+section.project-launch i {
+    font-size:47px;
+    color:#fff;
+    margin-left:8px;
+    margin-top:1px
+}
+
+section.project-launch p {
+    font-size:25px;
+    line-height:35px;
+    color:#fff;
+    margin:13% 0px;
+    font-weight:300
+}
+
+.project-launch {
+    position:relative;
+    width:100%;
+    padding:50px 0px 127px 0;
+    background:url(../images/cloud.png) no-repeat #37b3f2;
+    background-position:bottom;
+    background-size:contain;
+    background-position:0px 101%;
+    float:left;
+    z-index:1
+}
+
+.project-launch .rock1 {
+    position:absolute;
+    top:5%;
+    left:0px;
+    height:273px;
+    width:auto;
+    overflow:hidden;
+    transform:translate(-50%, -50%);
+    transform:rotate(-90deg);
+    right:0px;
+    background:url(../images/cloud11.gif) no-repeat;
+    background-size:96%;
+    z-index:99999
+}
+
+.jc-booster {
+    height:20px;
+    width:50px;
+    position:absolute;
+    top:100%;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    border-top:20px solid gray;
+    box-sizing:border-box
+}
+
+.jc-booster-flames {
+    background-color:yellow;
+    position:absolute;
+    top:120%;
+    left:0%;
+    height:50px;
+    width:50px;
+    border-radius:0 50% 50% 50%;
+    transform:rotate(45deg) skew(8deg, 8deg) rotate(180deg);
+    animation:flames 2s linear infinite;
+    box-sizing:border-box
+}

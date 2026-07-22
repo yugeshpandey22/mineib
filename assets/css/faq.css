@@ -1,0 +1,34 @@
+.content-secton .designer {
+    position: absolute;
+    width: 16%;
+    left: 5px;
+    bottom: 1%;
+}
+
+.faqdescription { 
+
+background :#b0e6fe;
+ 
+}
+.faqtitle { 
+font-size:18px; 
+ color:#ffffff;
+ text-align: left;
+}
+.faqdesc   { width:100%; }
+
+.acchead {
+
+    background: #006cb7;
+
+margin: 20px;
+padding:1%;
+}
+.faqdesc {
+font-size: 16px;
+width: 95%;
+margin: 7px auto;
+text-align: left;
+font-family: 'Josefin Sans',sans-serif;
+line-height: 26px;
+}

@@ -1,0 +1,44 @@
+
+
+.col-md-8.testimonial-sec {
+    margin-top:63px
+}
+
+.client-bg {
+    background:url(../images/testimonials.png) no-repeat;
+    height:393px;
+    width:100%;
+    position:relative;
+    top:-31px
+}
+
+.captions-client p {
+    font-size:17px;
+    line-height:24px
+}
+
+.captions-client h4 {
+    font-size:41px;
+    font-weight:300;
+    text-transform:capitalize
+}
+
+.captions-client {
+    position:absolute;
+    top:26%
+}
+
+.col-md-7.testimonial-sec {
+    margin-top:38px
+}
+
+.testimonial-sec p {
+    font-size:16px
+}
+
+.testimonial-sec blockquote .small {
+    display:block;
+    font-size:20px;
+    line-height:1.42857143;
+    color:#333
+}

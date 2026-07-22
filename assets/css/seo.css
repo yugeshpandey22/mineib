@@ -1,0 +1,69 @@
+/* ============================================================
+   seo.css — SEO Services Page Styles
+   ============================================================ */
+
+/* Page banner — green theme */
+.inner-page-banner {
+    background: linear-gradient(135deg, #0d6e4a 0%, #1db97e 100%);
+}
+
+/* Service card — green theme */
+.service-card {
+    border-left-color: #1db97e;
+}
+.service-card:hover {
+    border-left-color: #0d6e4a;
+    box-shadow: 0 6px 20px rgba(29,185,126,0.2);
+}
+.service-card h4 {
+    color: #0d6e4a;
+}
+
+/* Check list green override */
+.check-list li::before {
+    color: #1db97e;
+}
+
+/* SEO ranking visual */
+.ranking-bar {
+    margin: 8px 0;
+}
+.ranking-bar label {
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+    font-size: 0.88rem;
+    margin-bottom: 4px;
+}
+.ranking-bar .bar-track {
+    background: #e8f8f3;
+    border-radius: 10px;
+    height: 10px;
+    overflow: hidden;
+}
+.ranking-bar .bar-fill {
+    background: linear-gradient(90deg, #1db97e, #0d6e4a);
+    height: 100%;
+    border-radius: 10px;
+    transition: width 1s ease;
+}
+
+/* SEO Stats */
+.seo-stats {
+    background: linear-gradient(135deg, #0d6e4a, #1db97e);
+    border-radius: 12px;
+    padding: 28px 20px;
+    text-align: center;
+    color: #fff;
+    margin: 25px 0;
+}
+.seo-stats .stat-val {
+    font-size: 2rem;
+    font-weight: 700;
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.seo-stats .stat-txt {
+    font-size: 0.82rem;
+    opacity: 0.85;
+}

@@ -1,0 +1,18 @@
+.section_title {
+    text-align: center;
+    padding: 10px;
+    color: #833a74 !important;
+    text-transform: none !important;
+    font-size: 23px !important;
+    font-weight: 800;
+    word-spacing: 6px;
+	line-height: 38px;
+}
+
+.gif-video-icon { width: 239px;
+   border-radius: 50% !important;
+   height: 239px;
+   display: block;
+   margin: 35px auto;
+   object-fit: contain;
+   background: #ffffff; }

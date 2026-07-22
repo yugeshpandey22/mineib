@@ -1,0 +1,189 @@
+.screen {
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ddd;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,.08);
+}
+
+.screen img {
+    width: 100%;
+    display: block;
+    transition: transform 10s linear;
+    transform: translateY(0);
+}
+
+.screen:hover img {
+    transform: translateY(calc(-100% + 500px));
+}
+
+.client-image {
+    margin-bottom: 30px;
+}
+
+@media(max-width:768px){
+    .screen{
+        height:350px;
+    }
+
+    .screen:hover img{
+        transform: translateY(calc(-100% + 350px));
+    }
+}
+ .portfolio-readmore {
+    background: url(themes/default/images/get-a-call.png) no-repeat;
+    color: #000;
+    border: 0;
+    font-size: 28px;
+    font-weight: 400;
+    width: 215px;
+    height: 53px;
+    text-align: center;
+}
+
+.port-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	padding: 12px;
+	border: 1px solid #b3b3b3;
+	border-radius: 6px;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #ffffff;
+}
+
+.portfolio:hover .port-overlay {
+  opacity: 1;
+}
+
+.portfolio p {
+  color:#fff;
+}
+
+
+.intro_sec .chat-over-chai .cutting-chai {
+    font-size: 44px;
+}
+
+.intro_sec .chat-over-chai {
+    font-size: 40px;
+}
+
+.chai-form form .form-group select {
+    width: 293px !important;
+}
+
+}
+.intr_cont_s {
+    width:40%;
+    position:absolute;
+    top:8%;
+    left:14.2%;
+    color:#fff
+}
+.intr_cont_s>p {
+    margin-bottom:10px;
+    font-size:20px
+}
+.intr_cont_s h2 {
+    font-size:24px;
+    display:inline-block
+}
+.foj {
+    position:absolute;
+    left:14%;
+    bottom:3%;
+    z-index:9
+}
+#viewport .smoke {
+    position:absolute;
+    width:100%;
+    height:250px;
+    background:url('../images/tea-smok.png') no-repeat;
+    bottom:100px;
+    margin-left:0px;
+    float:right
+}
+.intro_sec .chat-over-chai {
+    position:absolute;
+    right:15px;
+    z-index:9999;
+    font-size:35px;
+    width:486px;
+    top:34px;
+    color:#fff
+}
+.intro_sec .chat-over-chai .cutting-chai {
+    color:#ff9e23;
+    text-shadow:2px 2px 0px #fff;
+    font-size:57px
+}
+.chai-success {
+    margin-top:31px;
+    font-size:13px;
+    width:fit-content;
+    position:absolute;
+    top:77%;
+    left:-72%;
+    background:#ff9e23d1
+}
+.enquiry-now {
+    position:fixed;
+    right:0;
+    z-index:9999;
+    top:55%
+}
+.chaiform form .form-group input:focus {
+    outline:-webkit-focus-ring-color auto 0px
+}
+.chaiform form .form-group input#yourname {
+    background:url(../images/user.png) no-repeat;
+    width:287px;
+    height:40px;
+    padding:0 0px 0 30px;
+    border:0;
+    color:#000;
+    font-size:16px
+}
+.chaiform form .form-group input#yourphone {
+    background:url(../images/phone-number.png) no-repeat;
+    width:287px;
+    height:40px;
+    padding:0 0px 0 30px;
+    border:0;
+    color:#000;
+    font-size:16px
+}
+.chaiform form .form-group select {
+    background:url(../images/select-work.png) no-repeat;
+    width:287px;
+    height:40px;
+    padding:0 0px 0 30px;
+    border:0;
+    color:#000;
+    font-size:16px
+}
+.chaiform form button {
+    background:url(../images/get-a-call.png) no-repeat;
+    color:#000;
+    border:0;
+    font-size:28px;
+    font-weight:400;
+    width:215px;
+    height:53px;
+    text-align:center
+}
+.enquiry-now img {
+    width:75%;
+    float:right
+}
+@media (max-width:767px) {
+    .foj {
+    bottom:2%
+}

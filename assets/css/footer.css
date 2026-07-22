@@ -1,0 +1,57 @@
+/* footer.css - Extracted from footer.php inline styles */
+
+.expandable {
+    background: #fff;
+    overflow: hidden;
+    color: #000;
+    transition: all .5s ease-in-out;
+    line-height: 0;
+    padding: 0 1em;
+    color: transparent;
+}
+
+.expandable:target {
+    line-height: 1.5;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: black;
+}
+
+.tabs-hidden-and-show {
+    margin: 19px 0 35px 0;
+    float: left;
+    width: 100%;
+}
+
+.tabs-hidden-and-show a{
+background: #39b5ea;
+color: #fff;
+padding: 10px 24px;
+font-size: 20px;
+border-radius: 5px;
+margin: 3px 6px;
+display: inline-block;
+}
+
+.tabs-hidden-and-show a:hover,  .tabs-hidden-and-show a:focus {
+background: #000;
+color: #fff;
+}
+
+.footer-box ul {
+    list-style: none;
+}
+.footer-logo {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+#list-builder {position: fixed;    left: 0;    top: 0;    width: 100%;    height: 100%;    background-color: #333;    filter: alpha(opacity=80);	opacity: 0.8;   display: none; z-index: 99999999;}
+#popup-box {    position: fixed;    left: 50%;    top: 50%;    transform: translate(-50%, -50%);  color: #FFFFFF; width: 90%; max-width: 1000px;
+  border: 10px solid #FFFFFF; display: none; z-index: 99999999999999999999999999;}
+#popup-close {    position: absolute;    top: -25px;   right: -25px;    cursor: pointer;    width: 40px;}
+div#popup-box-content img {    width: 100%;}
+iframe { display:block; }
+#toTop{position:fixed; bottom:120px; right:5px; cursor:pointer; transition: 0.5s; z-index: 99999;}

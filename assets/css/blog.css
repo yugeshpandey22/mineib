@@ -1,0 +1,90 @@
+/* ============================================================
+   blog.css — Blog Page Styles
+   ============================================================ */
+
+/* Page banner */
+.inner-page-banner {
+    background: linear-gradient(135deg, #2c3e50 0%, #4a6fa5 100%);
+}
+
+/* Blog section background */
+.blog-section {
+    padding: 55px 0 60px;
+    background: #f4f6fb;
+}
+
+/* Blog Card */
+.blog-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 18px rgba(0,0,0,0.09);
+    transition: transform 0.25s, box-shadow 0.25s;
+    margin-bottom: 28px;
+    height: 100%;
+}
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.13);
+}
+
+/* Blog card image / gradient header */
+.blog-card-header {
+    height: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-card-header i {
+    font-size: 58px;
+    color: rgba(255,255,255,0.85);
+}
+
+/* Blog card body */
+.blog-card-body {
+    padding: 22px 20px;
+}
+.blog-card-date {
+    color: #999;
+    font-size: 0.82rem;
+    margin-bottom: 10px;
+}
+.blog-card-date i {
+    margin-right: 5px;
+}
+.blog-card-body h4 {
+    color: #353275;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 1.45;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.blog-card-body p {
+    color: #666;
+    font-size: 0.88rem;
+    line-height: 1.65;
+    margin-bottom: 15px;
+}
+.blog-read-more {
+    color: #6c63ff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.88rem;
+    transition: color 0.2s;
+}
+.blog-read-more:hover {
+    color: #353275;
+    text-decoration: none;
+}
+.blog-read-more::after {
+    content: ' →';
+}
+
+/* Blog category colors */
+.blog-cat-purple  { background: linear-gradient(135deg, #353275, #6c63ff); }
+.blog-cat-green   { background: linear-gradient(135deg, #0d6e4a, #1db97e); }
+.blog-cat-red     { background: linear-gradient(135deg, #c0392b, #e74c3c); }
+.blog-cat-blue    { background: linear-gradient(135deg, #1a1a6e, #4a6fa5); }
+.blog-cat-orange  { background: linear-gradient(135deg, #d35400, #e67e22); }
+.blog-cat-teal    { background: linear-gradient(135deg, #16a085, #1abc9c); }

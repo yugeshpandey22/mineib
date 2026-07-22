@@ -1,0 +1,79 @@
+/* ============================================================
+   digital-marketing.css — Digital Marketing Page Styles
+   ============================================================ */
+
+/* Page banner — red/orange theme */
+.inner-page-banner {
+    background: linear-gradient(135deg, #c0392b 0%, #e74c3c 100%);
+}
+
+/* Service card — red theme */
+.service-card {
+    border-left-color: #e74c3c;
+}
+.service-card:hover {
+    border-left-color: #c0392b;
+    box-shadow: 0 6px 20px rgba(231,76,60,0.2);
+}
+.service-card h4 {
+    color: #c0392b;
+}
+
+/* Check list red override */
+.check-list li::before {
+    color: #e74c3c;
+}
+
+/* Marketing platform icons */
+.platform-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px 0;
+}
+.platform-item {
+    background: #fff;
+    border: 2px solid #fde8e8;
+    border-radius: 10px;
+    padding: 14px 18px;
+    text-align: center;
+    min-width: 100px;
+    flex: 1;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.platform-item:hover {
+    border-color: #e74c3c;
+    box-shadow: 0 4px 15px rgba(231,76,60,0.15);
+}
+.platform-item i {
+    font-size: 1.8rem;
+    color: #e74c3c;
+    display: block;
+    margin-bottom: 6px;
+}
+.platform-item span {
+    font-size: 0.78rem;
+    color: #555;
+    font-weight: 600;
+}
+
+/* Digital Marketing Stats */
+.dm-stats {
+    background: linear-gradient(135deg, #c0392b, #e74c3c);
+    border-radius: 12px;
+    padding: 28px 20px;
+    text-align: center;
+    color: #fff;
+    margin: 25px 0;
+}
+.dm-stats .stat-val {
+    font-size: 2rem;
+    font-weight: 700;
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.dm-stats .stat-txt {
+    font-size: 0.82rem;
+    opacity: 0.85;
+}
