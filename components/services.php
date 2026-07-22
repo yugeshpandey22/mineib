@@ -31,6 +31,7 @@
 						
 					 
 		
+          <div class="row">
 		<div class="col-md-3 col-sm-6 designing-div">
             <div class="f1_container">
               <div class="f1_cardx">
@@ -128,8 +129,7 @@
             </div>
           </div>
         </div>
-		
-				 
+        </div>
 </div>
 </div>
 </div>

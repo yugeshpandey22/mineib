@@ -10,7 +10,10 @@
     </div>
     
     <div class="col-sm-4 text-center">
-    	<img src="assets/images/logo.png" alt="Webclick&reg; Digital Pvt. Ltd." title="Webclick&reg; Digital Pvt. Ltd." class="footer-logo">
+        <div class="footer-logo-wrapper" style="position: relative; display: inline-block;">
+    	    <img src="assets/images/logo.png" alt="Webclick&reg; Digital Pvt. Ltd." title="Webclick&reg; Digital Pvt. Ltd." class="footer-logo">
+            <img src="assets/images/logo.png" alt="" class="footer-logo footer-logo-text-only">
+        </div>
     </div>    
     
       <div class="col-sm-4">

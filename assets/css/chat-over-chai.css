@@ -133,12 +133,6 @@
     left:-72%;
     background:#ff9e23d1
 }
-.enquiry-now {
-    position:fixed;
-    right:0;
-    z-index:9999;
-    top:55%
-}
 .chaiform form .form-group input:focus {
     outline:-webkit-focus-ring-color auto 0px
 }
@@ -178,10 +172,6 @@
     width:215px;
     height:53px;
     text-align:center
-}
-.enquiry-now img {
-    width:75%;
-    float:right
 }
 @media (max-width:767px) {
     .foj {

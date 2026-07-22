@@ -1435,6 +1435,8 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
     border-color: initial;
     border-image: initial;
     background-repeat: repeat-x;
+    background-size: auto 25px;
+    background-position: top center;
     padding: 6px 0px
 }
 

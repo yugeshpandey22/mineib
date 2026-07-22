@@ -834,10 +834,6 @@
 }
 
 @media only screen and (max-width:480px) {
-    .enquiry-now img {
-        width: 45%;
-        float: right
-    }
     .creative .creative_hindi_tagline {
         text-align: center;
         margin: 0 auto;

@@ -48,6 +48,14 @@ color: #fff;
     margin-bottom: 15px;
     display: inline-block;
 }
+
+.footer-logo-text-only {
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: brightness(0) invert(1);
+    clip-path: inset(60% 0 0 0); /* Cropping the top 60% to hide the white icon, showing only white text */
+}
 #list-builder {position: fixed;    left: 0;    top: 0;    width: 100%;    height: 100%;    background-color: #333;    filter: alpha(opacity=80);	opacity: 0.8;   display: none; z-index: 99999999;}
 #popup-box {    position: fixed;    left: 50%;    top: 50%;    transform: translate(-50%, -50%);  color: #FFFFFF; width: 90%; max-width: 1000px;
   border: 10px solid #FFFFFF; display: none; z-index: 99999999999999999999999999;}
