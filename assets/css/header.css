@@ -9,10 +9,15 @@
 
 .enquiry-now {
     position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
+    top: 55%;
+    right: 0;
+    left: auto;
     z-index: 9999;
+}
+.enquiry-now img {
+    width: auto;
+    max-width: 45px;
+    float: right;
 }
 
 /* Prevent text selection of a body element in all major browsers */
